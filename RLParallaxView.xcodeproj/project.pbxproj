@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7D74C5E922FE60D500C3FD39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C5E822FE60D500C3FD39 /* AppDelegate.m */; };
-		7D74C5EC22FE60D500C3FD39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C5EB22FE60D500C3FD39 /* ViewController.m */; };
 		7D74C5EF22FE60D500C3FD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D74C5ED22FE60D500C3FD39 /* Main.storyboard */; };
 		7D74C5F122FE60D700C3FD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D74C5F022FE60D700C3FD39 /* Assets.xcassets */; };
 		7D74C5F422FE60D700C3FD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D74C5F222FE60D700C3FD39 /* LaunchScreen.storyboard */; };
 		7D74C5F722FE60D700C3FD39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C5F622FE60D700C3FD39 /* main.m */; };
+		7D74C60022FE61AC00C3FD39 /* RLParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C5FE22FE61AC00C3FD39 /* RLParallaxView.m */; };
+		7D74C60322FE626A00C3FD39 /* RLBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C60222FE626A00C3FD39 /* RLBlurView.m */; };
+		7D74C60522FE65AC00C3FD39 /* header.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D74C60422FE65AC00C3FD39 /* header.jpeg */; };
+		7D74C60822FE6E4900C3FD39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74C60722FE6E4900C3FD39 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D74C5E422FE60D500C3FD39 /* RLParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D74C5E722FE60D500C3FD39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D74C5E822FE60D500C3FD39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D74C5EA22FE60D500C3FD39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D74C5EB22FE60D500C3FD39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D74C5EE22FE60D500C3FD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D74C5F022FE60D700C3FD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D74C5F322FE60D700C3FD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D74C5F522FE60D700C3FD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D74C5F622FE60D700C3FD39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D74C5FE22FE61AC00C3FD39 /* RLParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLParallaxView.m; sourceTree = "<group>"; };
+		7D74C5FF22FE61AC00C3FD39 /* RLParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLParallaxView.h; sourceTree = "<group>"; };
+		7D74C60122FE626A00C3FD39 /* RLBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLBlurView.h; sourceTree = "<group>"; };
+		7D74C60222FE626A00C3FD39 /* RLBlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLBlurView.m; sourceTree = "<group>"; };
+		7D74C60422FE65AC00C3FD39 /* header.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpeg; sourceTree = "<group>"; };
+		7D74C60622FE6E4900C3FD39 /* RLParallaxView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLParallaxView-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D74C60722FE6E4900C3FD39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +66,30 @@
 		7D74C5E622FE60D500C3FD39 /* RLParallaxView */ = {
 			isa = PBXGroup;
 			children = (
+				7D74C5FD22FE617700C3FD39 /* Source */,
 				7D74C5E722FE60D500C3FD39 /* AppDelegate.h */,
 				7D74C5E822FE60D500C3FD39 /* AppDelegate.m */,
-				7D74C5EA22FE60D500C3FD39 /* ViewController.h */,
-				7D74C5EB22FE60D500C3FD39 /* ViewController.m */,
+				7D74C60722FE6E4900C3FD39 /* ViewController.swift */,
 				7D74C5ED22FE60D500C3FD39 /* Main.storyboard */,
 				7D74C5F022FE60D700C3FD39 /* Assets.xcassets */,
+				7D74C60422FE65AC00C3FD39 /* header.jpeg */,
 				7D74C5F222FE60D700C3FD39 /* LaunchScreen.storyboard */,
 				7D74C5F522FE60D700C3FD39 /* Info.plist */,
 				7D74C5F622FE60D700C3FD39 /* main.m */,
+				7D74C60622FE6E4900C3FD39 /* RLParallaxView-Bridging-Header.h */,
 			);
 			path = RLParallaxView;
+			sourceTree = "<group>";
+		};
+		7D74C5FD22FE617700C3FD39 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7D74C5FF22FE61AC00C3FD39 /* RLParallaxView.h */,
+				7D74C5FE22FE61AC00C3FD39 /* RLParallaxView.m */,
+				7D74C60122FE626A00C3FD39 /* RLBlurView.h */,
+				7D74C60222FE626A00C3FD39 /* RLBlurView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +123,7 @@
 				TargetAttributes = {
 					7D74C5E322FE60D500C3FD39 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -128,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D74C60522FE65AC00C3FD39 /* header.jpeg in Resources */,
 				7D74C5F422FE60D700C3FD39 /* LaunchScreen.storyboard in Resources */,
 				7D74C5F122FE60D700C3FD39 /* Assets.xcassets in Resources */,
 				7D74C5EF22FE60D500C3FD39 /* Main.storyboard in Resources */,
@@ -141,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D74C5EC22FE60D500C3FD39 /* ViewController.m in Sources */,
+				7D74C60822FE6E4900C3FD39 /* ViewController.swift in Sources */,
 				7D74C5F722FE60D700C3FD39 /* main.m in Sources */,
+				7D74C60022FE61AC00C3FD39 /* RLParallaxView.m in Sources */,
 				7D74C5E922FE60D500C3FD39 /* AppDelegate.m in Sources */,
+				7D74C60322FE626A00C3FD39 /* RLBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RLParallaxView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +319,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roylee.RLParallaxView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RLParallaxView/RLParallaxView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RLParallaxView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +339,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roylee.RLParallaxView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RLParallaxView/RLParallaxView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
